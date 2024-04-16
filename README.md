@@ -39,9 +39,9 @@ wiliwili
 
 如果你也想自定义布局，可以参考本项目的内容。
 
-1. 找到你正在使用的 wiliwili 的布局文件，最新文件在：[wiliwili/dev](https://github.com/xfangfang/wiliwili/tree/dev/resources)，如果你是PC用户，那么布局文件也会附带于下载的应用内。
-2. 将布局文件目录 (resources) 复制到 配置目录的 theme 文件夹内，重命名为 layout_1（随意设置的名字，别带空格 & 英文小写名，保证全平台可用）
-3. 添加 resources_meta.json，将里面的 name 改为你喜欢的名字，将里面的 version 改为 对应的软件版本。其他内容模仿本项目下其他布局填写即可。
+1. 找到你正在使用的 wiliwili 的布局文件，测试版文件在：[wiliwili/dev](https://github.com/xfangfang/wiliwili/tree/dev/resources)，稳定版文件在：[wiliwili/yoga](https://github.com/xfangfang/wiliwili/tree/yoga/resources)。
+2. 在布局文件目录（resources）内添加 resources_meta.json，将里面的 name 改为你喜欢的名字，将里面的 version 改为 对应的软件版本。其他内容模仿本项目下其他布局填写即可。
+3. 将布局文件目录 (resources) 复制到 配置目录的 theme 文件夹内，重命名为 layout_1（可以任意指定名称，不过尽量不要带空格，尽量使用英文小写名，保证全平台可用）
 
 完成了这三步，你就可以在 wiliwili 的设置中选择你的布局了。当然，现在你的布局还是和原版一样的，接下来就是你的自定义时间了。
 
