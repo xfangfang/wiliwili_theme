@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.4.1",
   "name": "指定收藏夹",
   "author": "xfangfang",
   "desc": "单独的收藏夹 (修改 MineCollectionVideoList 的 collection 指定成你想要的收藏夹 id；网页打开指定收藏夹，看 url 可以找到收藏夹 id)"

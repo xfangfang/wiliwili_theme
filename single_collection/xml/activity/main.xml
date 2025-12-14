@@ -69,13 +69,25 @@
                 positionType="absolute"
                 positionBottom="20">
             <CustomButton
+                id="main/inbox"
+                focusable="true"
+                highlightCornerRadius="50"
+                cornerRadius="50"
+                marginBottom="10"
+                wireframe="false">
+                <SVGImage
+                        width="48"
+                        height="48"
+                        SVG="@res/svg/ico-inbox.svg"/>
+            </CustomButton>
+
+            <CustomButton
                     id="main/setting"
                     focusable="true"
                     highlightCornerRadius="50"
                     cornerRadius="50"
                     wireframe="false">
                 <SVGImage
-                        focusable="true"
                         width="48"
                         height="48"
                         SVG="@res/svg/ico-setting.svg"/>
